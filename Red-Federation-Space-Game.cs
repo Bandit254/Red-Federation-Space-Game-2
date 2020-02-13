@@ -118,6 +118,7 @@ namespace Red_Federation_Space_Game
         //StoryLine for Space Game
         public static void StoryLine()
         {
+            // TODO: 1 - Expound upon the story
             Console.Clear();
             Timer();
             Console.WriteLine("\nGreat! So as you know, the Earth is in pending doom.");
@@ -212,16 +213,19 @@ namespace Red_Federation_Space_Game
                         if (ship.shipX == alpha.planetX && ship.shipY == alpha.planetY)
                         {
                             //ScavengeAlpha();
+                            // TODO: 2 - Write a ScavengeAlpha Method
                             Console.WriteLine("// TODO: Write a ScavengeAlpha Method");
                         }
                         if (ship.shipX == unknown.planetX && ship.shipY == unknown.planetY)
                         {
                             //ScavengeUnknown();
+                            // TODO: 3 - Write a ScavengeUnknown Method
                             Console.WriteLine("// TODO: Write a ScavengeUnknown Method");
                         }
                         if (ship.shipX == tatooine.planetX && ship.shipY == tatooine.planetY)
                         {
                             //ScavengeTatooine();
+                            // TODO: 4 - Write a ScavengeTatooine Method
                             Console.WriteLine("// TODO: Write a ScavengeTatooine Method");
                         }
                         Continue();
@@ -229,6 +233,7 @@ namespace Red_Federation_Space_Game
                     }
                 case 2: //Buy Fuel
                     {
+                        // TODO: 5 - Write a BuyFuel Method
                         Console.WriteLine("// TODO: Write a BuyFuel Method");
                         Continue();
                         break;
@@ -245,6 +250,7 @@ namespace Red_Federation_Space_Game
                     }
                 case 5: //View Map
                     {
+                        // TODO: 6 - Write a View Map Method
                         Console.WriteLine("// TODO: Write a View Map Method");
                         Continue();
                         break;
@@ -278,6 +284,7 @@ namespace Red_Federation_Space_Game
         //Method to trade/purchase items with credits
         public static void Trade()
         {
+            // TODO: 7 - Write Trade Method
             Console.Clear();
             Timer();
             Console.WriteLine("//TODO: Write Trade Method");
