@@ -10,7 +10,7 @@ FEATURES:
   * Upgrade space ship
   * Scavenge planets for resources
   * Bargain/Trade goods
-  * Univeral currency 
+  * Universal currency 
   * Fuel status report
   * Storage Capacity
   
